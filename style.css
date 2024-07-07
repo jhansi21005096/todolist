@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: 8fc205;
+    color: #f1efef;
+    text-align: center;
+    margin: 0;
+    
+    padding: 0;
+    background-color: #239dcd;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+  
+    
+}
+
+.head{
+    margin-top: 20px;
+}
+
+p{
+    color: #000;
+    font-weight: 300;
+}
+
+input, button, select {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #00796b;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding-left: 10%;
+
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 5%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    /* background-color: #2e98c5a0; */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display:flexbox;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+/* li.completed {
+    text-decoration: line-through;
+    background-color: #239dcd;
+} */
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(235, 10, 10);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.filter-container {
+    margin-top: 20px;
+    color: red;
+    /* background-color: #239dcd; */
+    
+}
+#all{
+    color: aqua;
+}
+h1{
+    color: yellow;
+    font-style: italic;
+}
+
+
+/* .con{
+    background-color: #239dcd;
+   position: absolute;
+   top: 10%;
+
+} */
+ p{
+    color:crimson;
+ }
+ #green{
+    color:darkmagenta;
+ }
